@@ -60,7 +60,6 @@ def saque(valor):
     saldo -= valor
     operacoes += f"Saque no valor de R${valor}\n"
     numero_saque += 1
-    limite_diario -= valor
     print(f"operacao realizada com sucesso!!! \n Saldo após o saque R${saldo}")
 
 def extrato():
